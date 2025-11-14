@@ -127,3 +127,34 @@ header {
 .offers_image_container {
     width: 247px;
 }
+.footer_container {
+    background-color: #fafbfc;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.footer_column a {
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+.footer_bottom_copqyright {
+    text-align: center;
+    color: #999ca0;
+    font-size: 14px;
+    margin-top: 20px;
+}
